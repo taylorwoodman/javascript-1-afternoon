@@ -96,12 +96,14 @@ function nameCheck(NAMEPARAM){
 // that will be numbers.
 // The add function should return the two parameters added together
 
-//Code Here
+function add(num1, num2){
+  return num1 + num2
+}
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
-//Code Here
+const mathSum = add(3,4)
 
 //////////////////PROBLEM 12////////////////////
 
@@ -112,7 +114,17 @@ function nameCheck(NAMEPARAM){
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-// Code here
+function faveColorFinder(color){
+if(color === 'red'){
+  return 'red is a great color'
+} else if(color === 'green'){
+  return 'green is a solid favorite color'
+} else if(color === 'black'){
+  return 'so trendy'
+} else {
+  return 'you need to evaluate your favorite color choice'
+}
+}
 
 //////////////////PROBLEM 13////////////////////
 
@@ -136,28 +148,28 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathroomScope = ["duck","rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
 //Create a variable called age with your age assigned to you
 
-// Code Here
+let age = 23
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-// Code Here
+age + 1
 
 // Good news! We can live forever. Set your age to 999
 
-// Code Here
+age = 999
