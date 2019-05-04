@@ -36,15 +36,15 @@ const devMountainGoal = null;
 
 function greeting(name){
   
-  return "Hello, " + name;
+  return "Hello, " + name
 }
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-const newGreeting = function(){
-
+const newGreeting = function(name){
+return "Hello, " + name
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -52,7 +52,7 @@ const newGreeting = function(){
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+const groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -61,12 +61,17 @@ const newGreeting = function(){
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+const dog = {
+  name: "Spot",
+  color: "Black and white",
+  age: 5,
+  goodBoy: true
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -77,7 +82,13 @@ const newGreeting = function(){
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-// Code here
+function nameCheck(NAMEPARAM){
+  if(NAMEPARAM === 'Steven'){
+    return 'What is up Steven?'
+  } else if(NAMEPARAM === 'Bryan'){
+    return 'Hey Bryan!'
+  } else return `Cool name, ${NAMEPARAM}`
+}
 
 //////////////////PROBLEM 11////////////////////
 
