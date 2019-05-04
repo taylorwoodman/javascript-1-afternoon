@@ -2,32 +2,31 @@
 
 //Create a variable called myName that is a string data type
 
-//Code here
+const myName = 'Taylor';
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-//Code here
+const myAge = 23;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-//Code here
+const lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-//Code here
+const greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
-
+const devMountainGoal = null;
 //////////////////PROBLEM 6////////////////////
 
 //Create a function declaration called greeting that
@@ -35,14 +34,18 @@
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
-
+function greeting(name){
+  
+  return "Hello, " + name;
+}
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+const newGreeting = function(){
+
+}
 
 //////////////////PROBLEM 8////////////////////
 
